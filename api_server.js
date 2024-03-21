@@ -13,7 +13,7 @@ import env from "dotenv";
 env.config();
 
 const app = express();
-const port = process.env.API_PORT;
+const port = process.env.PORT || 4000;
 
 // Middleware 
 
