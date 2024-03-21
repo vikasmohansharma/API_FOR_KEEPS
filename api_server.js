@@ -3,7 +3,7 @@
 import express from "express";
 import { createClient } from '@supabase/supabase-js';
 import bodyParser from "body-parser";
-import pg from "pg";
+//import pg from "pg";
 import cors from "cors";
 import bcrypt from "bcrypt";
 import passport from "passport";
@@ -52,6 +52,12 @@ app.post('/login', passport.authenticate('local'), (req, res) => {
   //console.log(req.session);
   res.json({ message: 'Login successful', user: req.user });
 });
+
+
+//Route to check deployement
+app.get('/', (req,res) => {
+  res.send("Hello World");
+})
 
 // Register endpoint
 app.post('/register', async (req, res) => {
