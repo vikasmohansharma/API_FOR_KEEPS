@@ -1,4 +1,4 @@
 [build]
-  command = "npm run build" # This can be left empty if you don't have a build process
+  command = "" # This can be left empty if you don't have a build process
   functions = "API/functions" # Adjust the path to your functions directory
   publish = "API" # Adjust the path to your main API directory
