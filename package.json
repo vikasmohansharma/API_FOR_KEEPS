@@ -1,5 +1,5 @@
 {
-  "name": "api-server-for-keeps-app",
+  "name": "api",
   "version": "1.0.0",
   "description": "",
   "main": "api_server.js",
