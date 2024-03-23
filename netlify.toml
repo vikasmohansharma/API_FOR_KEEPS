@@ -1,4 +1,9 @@
 [build]
-  command = "" # This can be left empty if you don't have a build process
-  functions = "API/functions" # Adjust the path to your functions directory
-  publish = "API" # Adjust the path to your main API directory
+  command = "" # Leave this empty if you're not building frontend assets
+  functions = "functions" # Path to your serverless functions directory
+  publish = "API" # Set the publish directory to the root directory (API)
+
+
+  
+[dev]
+  command = "node api_server.js" # Command to start your Express.js server locally
