@@ -25,7 +25,7 @@ app.use(
     saveUninitialized: true,
     cookie: { 
       maxAge: 60 * 1000, // 30 days
-      secure: false, // set this to true if you are running over HTTPS, false otherwise
+      secure: true, // set this to true if you are running over HTTPS, false otherwise
       sameSite: 'none' // set this to 'none' if your API server and client are on different domains, 'strict' otherwise
     }
   })
