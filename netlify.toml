@@ -2,6 +2,8 @@
   command = "" # Leave this empty if you're not building frontend assets
   functions = "functions" # Path to your serverless functions directory
   publish = "API" # Set the publish directory to the root directory (API)
+  base = "/"
+
 
 
   
