@@ -42,8 +42,6 @@ router.use(passport.initialize());
 router.use(passport.session());
 
 
-router.get("/hello", (req, res) => res.send("Hello World!"));
-
 api.use("/api/", router);
 
 // Login endpoint
