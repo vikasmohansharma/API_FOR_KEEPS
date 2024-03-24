@@ -44,7 +44,7 @@ router.use(passport.session());
 
 router.get("/hello", (req, res) => res.send("Hello World!"));
 
-api.use("/", router);
+api.use("/api/", router);
 
 // Login endpoint
 router.post('/login', passport.authenticate('local'), (req, res) => {
