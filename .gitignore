@@ -9,5 +9,5 @@ node_modules
 .netlify
 
 
-netlify
+netlify/
 netlify.toml
