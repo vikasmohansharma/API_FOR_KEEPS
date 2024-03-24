@@ -236,10 +236,7 @@ router.post('/login', passport.authenticate('local'), (req, res) => {
   });
   
   
-  // Start server
-  router.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
-  });
+
   
 
 
