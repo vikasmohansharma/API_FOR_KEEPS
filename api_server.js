@@ -55,7 +55,7 @@ app.post('/login', passport.authenticate('local'), (req, res) => {
 
 
 //Route to check deployement
-app.get('/api', (req,res) => {
+app.get('/', (req,res) => {
   res.send("Hello World");
 })
 
