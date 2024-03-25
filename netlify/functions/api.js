@@ -37,7 +37,7 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 router.use(bodyParser.urlencoded({ extended: true }));
 router.use(bodyParser.json());
 router.use(express.static("public"));
-router.use(cors({ credentials: true, origin: 'http://localhost:3000' })); // replace the origin with your client's address
+router.use(cors({ credentials: true, origin: 'https://vikaskeeps.netlify.app/' })); // replace the origin with your client's address
 router.use(passport.initialize());
 router.use(passport.session());
 
